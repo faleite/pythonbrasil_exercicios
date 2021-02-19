@@ -8,10 +8,13 @@ e calcule o excesso. Gravar na variável excesso a quantidade de quilos
 além do limite e na variável multa o valor da multa que João deverá pagar.
 Imprima os dados do programa com as mensagens adequadas."""
 
-peixe = float(input('Insira o quilo de peixes: '))
-peso = 50
-excesso = peixe - peso
-multa = excesso * 4
-print(f'Peso excedido: {excesso:.3f}kg')
-print(f'Valor da multa a pagar: R$ {multa:.2f}')
-#falta concluir
+peso = float(input('Insira o peso: '))
+excesso = 0
+multa = 0
+
+if peso > 50:
+    excesso = peso - 50
+    multa = excesso * 4
+
+print(f'Peso excedido: {excesso:.3f}Kg')
+print(f'Multa a pagar: R$ {multa:.2f}')
