@@ -13,3 +13,16 @@ e. calcule os descontos e o salário líquido, conforme a tabela abaixo:
     - Sindicato ( 5%) : R$
     = Salário Liquido : R$
 Obs.: Salário Bruto - Descontos = Salário Líquido. """
+
+valor = float(input('Insira o valor por hora de trabalho: '))
+horas = float(input('Insira o número de horas trabalhadas no mês: '))
+s_bruto = valor * horas
+ir = s_bruto * 0.11
+inss = s_bruto * 0.08
+sind = s_bruto * 0.05
+sal_liq = s_bruto - (ir + inss + sind)
+print(f'Salário Bruto: R$ {s_bruto:.2f}')
+print(f'IR (11%): R$ {ir:.2f}')
+print(f'INSS (8%): R$ {inss:.2f}')
+print(f'Sindicato (5%): R$ {sind:.2f}')
+print(f'Salário Liquido: R$ {sal_liq:.2f}')
