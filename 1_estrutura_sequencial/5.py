@@ -1,4 +1,6 @@
-"""5. Faça um Programa que converta metros para centímetros."""
+"""
+5. Faça um Programa que converta metros para centímetros.
+"""
 
 metros = float(input('Insira a metragem: '))
 centimetros = metros / 0.010000  # outra forma: metros * 100
