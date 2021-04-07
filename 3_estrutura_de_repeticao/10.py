@@ -14,4 +14,3 @@ Outra forma:
 """
 # lista = list(range(num1, num2))
 # print(lista)
-
