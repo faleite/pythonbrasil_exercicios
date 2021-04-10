@@ -16,7 +16,6 @@ while count <= expoente:
 
 print(potencia)
 
-
 """Com for"""
 # potencia = 1
 #
