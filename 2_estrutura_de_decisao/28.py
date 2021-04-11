@@ -15,9 +15,9 @@ carnes = ('File Duplo', 'Alcatra', 'Picanha')
 for i, carne in enumerate(carnes, start=1):
     print(f'{i} - {carne}')
 print()
-tipo = int(input(f'Insira o tipo da carne: '))
-qtde = float(input(f'Insira a quantidade em kg: '))
-forma_pgto = int(input(f'Insira a forma de pagamento (1-Cartão Tabajara ou 2-Outros): '))
+tipo = int(input('Insira o tipo da carne: '))
+qtde = float(input('Insira a quantidade em kg: '))
+forma_pgto = int(input('Insira a forma de pagamento (1-Cartão Tabajara ou 2-Outros): '))
 
 if tipo == 1:
     nome = 'File Duplo'

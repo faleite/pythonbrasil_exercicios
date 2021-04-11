@@ -3,7 +3,7 @@
 Dica: utilize o operador módulo (resto da divisão).
 """
 
-numero = int(input(f'Insira um número inteiro: '))
+numero = int(input('Insira um número inteiro: '))
 
 par_impar = numero % 2
 

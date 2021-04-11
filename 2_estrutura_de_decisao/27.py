@@ -9,8 +9,8 @@ para ler a quantidade (em Kg) de morangos e a quantidade (em Kg) de maças adqui
 e escreva o valor a ser pago pelo cliente.
 """
 
-qte_mor = float(input(f'Insira a quantidade em Kg de Morangos: '))
-qte_mac = float(input(f'Insira a quantidade em Kg de Maças: '))
+qte_mor = float(input('Insira a quantidade em Kg de Morangos: '))
+qte_mac = float(input('Insira a quantidade em Kg de Maças: '))
 
 if qte_mor and qte_mac <= 5:
     valor_morango = qte_mor * 2.50

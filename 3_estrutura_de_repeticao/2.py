@@ -4,8 +4,8 @@ e não aceite a senha igual ao nome do usuário,
 mostrando uma mensagem de erro e voltando a pedir as informações.
 """
 while True:
-    nome = str(input(f'Nome de usuário: '))
-    senha = input(f'Senha: ')
+    nome = str(input('Nome de usuário: '))
+    senha = input('Senha: ')
 
     if nome != senha:
         break

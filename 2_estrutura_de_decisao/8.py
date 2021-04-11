@@ -3,9 +3,9 @@ e informe qual produto você deve comprar,
 sabendo que a decisão é sempre pelo mais barato.
 """
 
-produto1 = float(input(f'Insira o primeiro preço: '))
-produto2 = float(input(f'Insira o segundo preço: '))
-produto3 = float(input(f'Insira o terceiro preço: '))
+produto1 = float(input('Insira o primeiro preço: '))
+produto2 = float(input('Insira o segundo preço: '))
+produto3 = float(input('Insira o terceiro preço: '))
 
 if produto2 > produto1 < produto3:
     print(f'O menor preço é: R$ {produto1:.2f}')

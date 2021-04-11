@@ -5,8 +5,8 @@ O programa deve calcular a média alcançada por aluno e apresentar:
  * A mensagem "Aprovado com Distinção", se a média for igual a dez.
 """
 
-nota1 = float(input(f'Insira a primeira nota do aluno: '))
-nota2 = float(input(f'Insira a segunda nota do aluno: '))
+nota1 = float(input('Insira a primeira nota do aluno: '))
+nota2 = float(input('Insira a segunda nota do aluno: '))
 media = (nota1 + nota2) / 2
 
 if 7 <= media < 10:

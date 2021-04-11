@@ -4,8 +4,8 @@ calcule e mostre o primeiro número elevado ao segundo número.
 Não utilize a função de potência da linguagem.
 """
 
-base = int(input(f'Isira o número base: '))
-expoente = int(input(f'Isira o expoente: '))
+base = int(input('Isira o número base: '))
+expoente = int(input('Isira o expoente: '))
 
 potencia = 1
 count = 1

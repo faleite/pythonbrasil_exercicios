@@ -14,7 +14,7 @@ Após o aumento ser realizado, informe na tela:
 - o novo salário, após o aumento.
 """
 
-salario = float(input(f'Insira o salário atual: '))
+salario = float(input('Insira o salário atual: '))
 
 aumento = 0
 

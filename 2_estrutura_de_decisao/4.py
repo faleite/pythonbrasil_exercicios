@@ -2,7 +2,7 @@
 uma letra digitada é vogal ou consoante.
 """
 
-letra = input(f'Insira uma letra: ')
+letra = input('Insira uma letra: ')
 vogal = 'aeiouAEIOU'
 
 if letra in vogal:

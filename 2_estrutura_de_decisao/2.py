@@ -2,12 +2,12 @@
 se o valor é positivo ou negativo.
 """
 
-valor = float(input(f'Insira um valor: '))
+valor = float(input('Insira um valor: '))
 
 if valor >= 0:
-    print(f'Este valor é positivo!')
+    print('Este valor é positivo!')
 else:
-    print(f'Este valor é negativo!')
+    print('Este valor é negativo!')
 
 
 """Ourta forma:"""

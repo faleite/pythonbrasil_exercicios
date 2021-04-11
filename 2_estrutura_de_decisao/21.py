@@ -13,11 +13,11 @@ uma nota de 50, quatro notas de 10, uma nota de 5 e quatro notas de 1.
 
 print('Valor mínimo para saque: R$ 10,00.')
 print('Valor máximo para saque: R$ 600,00.')
-saque = int(input(f'Insira o valor do saque: '))
+saque = int(input('Insira o valor do saque: '))
 
 while saque < 10 or saque > 600:
-    print(f'Valor inválido.')
-    saque = int(input(f'Tente novamente: '))
+    print('Valor inválido.')
+    saque = int(input('Tente novamente: '))
 else:
     nota = saque // 100
     saque = saque - (nota * 100)

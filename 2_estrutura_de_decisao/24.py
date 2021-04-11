@@ -6,9 +6,9 @@ b. positivo ou negativo;
 c. inteiro ou decimal.
 """
 
-num1 = float(input(f'Insira o primeiro número: '))
-num2 = float(input(f'Insira o segundo número: '))
-operacao = int(input(f'Insira a operação: 1-Adição, 2-Subtração, 3-Multiplicação e 4-Divisão: '))
+num1 = float(input('Insira o primeiro número: '))
+num2 = float(input('Insira o segundo número: '))
+operacao = int(input('Insira a operação: 1-Adição, 2-Subtração, 3-Multiplicação e 4-Divisão: '))
 
 print('O número é:')
 

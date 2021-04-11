@@ -3,8 +3,8 @@
 e gere os números inteiros que estão no intervalo compreendido por eles.
 """
 
-num1 = int(input(f'Insira o primeiro número: '))
-num2 = int(input(f'Insira o segundo número: '))
+num1 = int(input('Insira o primeiro número: '))
+num2 = int(input('Insira o segundo número: '))
 
 for i in range(num1, num2):
     print(i)

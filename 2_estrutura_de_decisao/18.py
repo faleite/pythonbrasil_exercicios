@@ -3,7 +3,7 @@
 dd/mm/aaaa e determine se a mesma é uma data válida.
 """
 
-data = input(f'Insira uma data no formato dd/mm/aaaa: ')
+data = input('Insira uma data no formato dd/mm/aaaa: ')
 
 dia = int(data[:2])
 mes = int(data[3:5])

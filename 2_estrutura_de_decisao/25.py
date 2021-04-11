@@ -11,11 +11,11 @@ entre 3 e 4 como "Cúmplice" e 5 como "Assassino". Caso contrário, ele será cl
 """
 
 print('Responda as perguntas com 1-Sim ou 0-Não.')
-a = int(input(f'Telefonou para a vítima? '))
-b = int(input(f'Esteve no local do crime? '))
-c = int(input(f'Mora perto da vítima? '))
-d = int(input(f'Devia para a vítima? '))
-e = int(input(f'Já trabalhou com a vítima? '))
+a = int(input('Telefonou para a vítima? '))
+b = int(input('Esteve no local do crime? '))
+c = int(input('Mora perto da vítima? '))
+d = int(input('Devia para a vítima? '))
+e = int(input('Já trabalhou com a vítima? '))
 
 respostas = a + b + c + d + e
 

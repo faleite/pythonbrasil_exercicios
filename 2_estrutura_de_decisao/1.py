@@ -1,8 +1,8 @@
 """ 1. Faça um Programa que peça dois números e imprima o maior deles.
 """
 
-num1 = float(input(f'Insira o primeiro número: '))
-num2 = float(input(f'Insira o segundo número: '))
+num1 = float(input('Insira o primeiro número: '))
+num2 = float(input('Insira o segundo número: '))
 
 if num1 > num2:
     print(f'O número maior é: {num1:.2f}')

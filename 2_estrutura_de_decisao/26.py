@@ -12,8 +12,8 @@ A-álcool, G- gasolina), calcule e imprima o valor a ser pago pelo cliente
 sabendo-se que o preço do litro da gasolina é R$ 2,50 o preço do litro do álcool é R$ 1,90.
 """
 
-tipo = str(input(f'Insira o tipo de combustível (A-álcool, G- gasolina): ')).upper()
-qtde = float(input(f'Insira a quantidade em litros: '))
+tipo = str(input('Insira o tipo de combustível (A-álcool, G- gasolina): ')).upper()
+qtde = float(input('Insira a quantidade em litros: '))
 
 alcool = qtde * 1.90
 gasolina = qtde * 2.50

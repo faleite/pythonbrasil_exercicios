@@ -4,7 +4,7 @@ Imprima a mensagem "Bom Dia!", "Boa Tarde!"
 ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
 """
 
-turno = str(input(f'Insira o turno M-matutino, V-vespentino ou N-Noturno: ')).upper()  # Método caixa alta.
+turno = str(input('Insira o turno M-matutino, V-vespentino ou N-Noturno: ')).upper()  # Método caixa alta.
 
 if turno == 'M':
     print('Bom Dia!')

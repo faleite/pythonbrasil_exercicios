@@ -8,7 +8,7 @@ a serem compradas e o preço total.
 """
 # from math import ceil (pode usar método ceil de math para arredondar acima)
 
-tamanho = float(input(f'Insira o tamanho da área: '))
+tamanho = float(input('Insira o tamanho da área: '))
 litros = tamanho / 3
 latas = int(litros / 18)  # ceil(tamanho / lata)
 if litros % 18 != 0:

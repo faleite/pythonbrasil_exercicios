@@ -9,7 +9,7 @@ Testar com: 326, 300, 100, 320, 310,305, 301,
 101, 311, 111, 25, 20, 10, 21, 11, 1, 7 e 16
 """
 
-numero = int(input(f'Insira um numero menor que 1000: '))
+numero = int(input('Insira um numero menor que 1000: '))
 
 unidade = numero % 10
 dezena = int((numero % 100) / 10)

@@ -4,7 +4,7 @@ e exiba o dia correspondente da semana.
 se digitar outro valor deve aparecer valor inválido.
 """
 
-numero = int(input(f'Insira um numero correspondente ao dia da semana: '))
+numero = int(input('Insira um numero correspondente ao dia da semana: '))
 
 if numero == 1:
     dia = 'Domingo'

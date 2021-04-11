@@ -11,4 +11,3 @@ for n in range(1, 6):
         maior = n
 
 print(f'{n} é o maior número.')
-

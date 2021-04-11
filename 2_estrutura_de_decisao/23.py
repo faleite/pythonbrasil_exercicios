@@ -4,7 +4,7 @@ e informe se o número é inteiro ou decimal.
 Dica: utilize uma função de arredondamento.
 """
 
-numero = float(input(f'Insira um número: '))
+numero = float(input('Insira um número: '))
 
 if round(numero) == numero:
     print(f'{int(numero)} é um número inteiro.')

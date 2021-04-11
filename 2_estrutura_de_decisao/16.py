@@ -13,28 +13,28 @@ informe-as ao usuário;
 """
 import math
 
-a = float(input(f'Insira o valor de a: '))
+a = float(input('Insira o valor de a: '))
 
 if a == 0:
     print()
-    print(f'A equação não é do segundo grau.')
+    print('A equação não é do segundo grau.')
 else:
-    b = float(input(f'Insira o valor de b: '))
-    c = float(input(f'Insira o valor de c: '))
+    b = float(input('Insira o valor de b: '))
+    c = float(input('Insira o valor de c: '))
     print()
 
     #  △ = b2 - 4ac
     delta = (b ** 2) - (4 * a * c)
 
     if delta < 0:
-        print(f'A equação não possui raízes reais.')
+        print('A equação não possui raízes reais.')
     elif delta == 0:
         raiz = -b / (2 * a)
-        print(f'A equação possui apenas uma raízes real.')
+        print('A equação possui apenas uma raízes real.')
         print(f'A raiz: {raiz}')
     else:
         raiz1 = (-b + math.sqrt(delta)) / (2 * a)
         raiz2 = (-b - math.sqrt(delta)) / (2 * a)
-        print(f'A equação possui duas raiz reais.')
+        print('A equação possui duas raiz reais.')
         print(f'Raiz de x1: {raiz1:.2f}')
         print(f'Raiz de x2: {raiz2:.2f}')

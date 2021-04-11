@@ -13,8 +13,8 @@ o conceito correspondente e a mensagem “APROVADO”
 se o conceito for A, B ou C ou “REPROVADO” se o conceito for D ou E.
 """
 
-nota1 = float(input(f'Insira a primeira nota: '))
-nota2 = float(input(f'Insira a segunda nota: '))
+nota1 = float(input('Insira a primeira nota: '))
+nota2 = float(input('Insira a segunda nota: '))
 
 media = (nota1 + nota2) / 2
 conceito = ''

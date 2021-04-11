@@ -21,7 +21,7 @@ LITRO_GALAO = 3.6
 VALOR_GALAO = 25
 MARGEM_FOLGA = 1.1
 
-m2 = float(input(f'Insira o tamanho da área: '))
+m2 = float(input('Insira o tamanho da área: '))
 consumo_litro = m2 / M2_POR_LITRO * MARGEM_FOLGA
 
 qtd_lata = int(consumo_litro / LITRO_LATA)  # Pode usar o metodo math.ceil que arredonda para cima
@@ -42,17 +42,17 @@ valor_galao_misto = qtd_galao_misto * VALOR_GALAO
 valor_lata_misto = qtd_lata_misto * VALOR_LATA
 
 print()
-print(f'Apenas latas:')
+print('Apenas latas:')
 print()
 print(f'Quantidade de latas: {qtd_lata}')
 print(f'Valor a pagar: R$ {valor_lata}')
 print()
-print(f'Apenas galões:')
+print('Apenas galões:')
 print()
 print(f'Quantidade de galões: {qtd_galao}')
 print(f'Valor a pagar: R$ {valor_galao}')
 print()
-print(f'Compra mista:')
+print('Compra mista:')
 print()
 print(f'Latas: {qtd_lata_misto}')
 print(f'Galões: {qtd_galao_misto}')

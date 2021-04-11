@@ -8,9 +8,9 @@ com a respectiva média alcançada;
 c. A mensagem "Aprovado com Distinção", se a média for igual a 10.
 """
 
-nota1 = float(input(f'Insira a primeira nota:'))
-nota2 = float(input(f'Insira a segunda nota:'))
-nota3 = float(input(f'Insira a terceira nota:'))
+nota1 = float(input('Insira a primeira nota:'))
+nota2 = float(input('Insira a segunda nota:'))
+nota3 = float(input('Insira a terceira nota:'))
 
 media = (nota1 + nota2 + nota3) / 3
 
@@ -20,6 +20,3 @@ elif media < 7:
     print(f'Média alcançada: {media:.2f} "Reprovado"')
 else:
     print(f'Média alcançada: {media:.2f} "Aprovado com Distinção"')
-
-
-

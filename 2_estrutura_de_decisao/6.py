@@ -2,9 +2,9 @@
 três números e mostre o maior deles
 """
 
-num1 = float(input(f'Insira o primeiro número: '))
-num2 = float(input(f'Insira o segundo número: '))
-num3 = float(input(f'Insira o terceiro número: '))
+num1 = float(input('Insira o primeiro número: '))
+num2 = float(input('Insira o segundo número: '))
+num3 = float(input('Insira o terceiro número: '))
 
 if num2 < num1 > num3:  # num1 > num2 and num1 > num3:
     print(f'O maior número é: {num1:.2f}')

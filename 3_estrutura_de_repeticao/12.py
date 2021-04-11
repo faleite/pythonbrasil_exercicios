@@ -8,7 +8,7 @@ Tabuada de 5:
 5 X 10 = 50
 """
 
-num = int(input(f'Insira um número que deseja ver a tabuada: '))
+num = int(input('Insira um número que deseja ver a tabuada: '))
 
 for count in range(1, 11):
     print(f'{num} X {count} = {num * count}')
@@ -21,5 +21,3 @@ for count in range(1, 11):
 #     count += 1
 #     tab = num * count
 #     print(f'{num} X {count} = {tab}')
-
-

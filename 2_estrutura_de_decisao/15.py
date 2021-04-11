@@ -9,9 +9,9 @@ Triângulo Isósceles: quaisquer dois lados iguais;
 Triângulo Escaleno: três lados diferentes;
 """
 
-lado1 = float(input(f'Informe o valor do primeiro lado: '))
-lado2 = float(input(f'Informe o valor do segundo lado: '))
-lado3 = float(input(f'Informe o valor do terceiro lado: '))
+lado1 = float(input('Informe o valor do primeiro lado: '))
+lado2 = float(input('Informe o valor do segundo lado: '))
+lado3 = float(input('Informe o valor do terceiro lado: '))
 
 triangulo = ''
 

@@ -4,7 +4,7 @@ Mostre uma mensagem caso o valor seja inválido e continue
 pedindo até que o usuário informe um valor válido.
 """
 while True:
-    nota = float(input(f'Insira uma nota entre zero e dez: '))
+    nota = float(input('Insira uma nota entre zero e dez: '))
 
     if 0 <= nota <= 10:
         break
