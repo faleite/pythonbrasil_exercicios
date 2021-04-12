@@ -20,3 +20,4 @@ if termo < 500:
 	print('Tente novamente')
 else:
 	print(termo)
+	
