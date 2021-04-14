@@ -9,14 +9,14 @@ resultado = 1
 count = 1
 
 for n in range(1, num + 1):
- 	resultado *= n
+    resultado *= n
 print(f'{num}! = {resultado}')
 
 """ Com while """
 # resultado = 1
 # count = 1
-
+#
 # while count <= num:
-#	resultado *= count
-#	count += 1
-# print(resultado)
+#     resultado *= count
+#     count += 1
+# print(f'{num}! = {resultado}')
