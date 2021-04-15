@@ -6,7 +6,6 @@ Ex.: 5!=5.4.3.2.1=120
 num = int(input('Insira o número: '))
 
 resultado = 1
-count = 1
 
 for n in range(1, num + 1):
     resultado *= n
