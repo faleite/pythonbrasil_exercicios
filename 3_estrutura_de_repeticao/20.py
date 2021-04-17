@@ -11,12 +11,9 @@ for i in range(1, qtd + 1):
         if 0 < num < 16:
             break
         else:
-            print('Valor inválido. Digite novamente.')
+            print('Valor inválido. Tente novamente.')
 
-    n = 1
     resultado = 1
-
-    while n <= num:
+    for n in range(1, num + 1):
         resultado *= n
-        n += 1
-    print(f'{num}! = {resultado}')
+    print(resultado)

@@ -16,3 +16,15 @@ else:
     print(f'{num} não é um número primo.')
 
 """ Fazer com While """
+# i = 0
+# mult = 0
+#
+# while i < num:
+#     i += 1
+#     if num % i == 0:
+#         mult += 1
+#
+# if mult == 2:
+#     print(f'{num} é um número primo.')
+# else:
+#     print(f'{num} não é um número primo.')
