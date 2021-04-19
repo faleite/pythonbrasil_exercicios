@@ -13,6 +13,3 @@ for i in range(1, n_notas + 1):
     media = soma / n_notas
 
 print(f'Média: {media:.1f}')
-
-
-
