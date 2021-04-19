@@ -10,7 +10,9 @@ n = int(input('Insira um número: '))
 
 quant = 0
 
-for num in range(1, n + 1):
+print('Os números primos são:')
+
+for num in range(2, n + 1):
     count = 0
     for i in range(1, num + 1):
         quant += 1
@@ -18,5 +20,6 @@ for num in range(1, n + 1):
             count += 1
 
     if count <= 2:
-        print(num)
-print(quant)
+        print(num, end=' ')
+print()
+print(f'Números de divisões executadas: {quant}')
