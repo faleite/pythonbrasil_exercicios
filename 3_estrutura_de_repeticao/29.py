@@ -13,3 +13,10 @@ Lojas Quase Dois - Tabela de preços
 ...
 50 - R$ 99.50
 """
+
+soma = 0
+
+for i in range(50):
+    i += 1
+    soma += 1.99
+    print(f'{i} - {soma:.2f}')
