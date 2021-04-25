@@ -18,3 +18,19 @@ Dinheiro: R$ 20.00
 Troco: R$ 11.00
 ...
 """
+produto = 0
+i = 1
+total = 0
+
+while True:
+    while i > 0:
+        valor = float(input(f'Produto {i}: R$ '))
+        total += valor
+        i += 1
+        if valor == 0:
+            print(f'Total: R$ {total:.2f}')
+            dinheiro = float(input('Dinheiro: R$ '))
+            print(f'Troco: R$ {dinheiro - total:.2f}')
+            print()
+            print('Proxima compra:')
+            i = 1

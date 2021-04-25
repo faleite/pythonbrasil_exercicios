@@ -10,3 +10,15 @@ Panificadora Pão de Ontem - Tabela de preços
 ...
 50 - R$ 9.00
 """
+
+
+def tabela(num: int):
+    preco = float(input('Preço do pão: '))
+    soma = 0
+    for i in range(num):
+        i += 1
+        soma += preco
+        print(f'{i} - {soma:.2f}')
+
+
+tabela(50)
