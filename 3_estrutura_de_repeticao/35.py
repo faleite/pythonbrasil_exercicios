@@ -5,12 +5,27 @@ entre 1 e um número inteiro informado pelo usuário.
 """
 num = int(input('Insira um número: '))
 
-for n in range(1, num + 1):
-    mult = 0
-    for i in range(1, n + 1):
-        if n % i == 0:
-            mult += 1
-    if mult == 2:
-        print(f'{i} é um número primo')
-    else:
-        print(f'{i} não é um número primo')
+# for i in range(1, num + 1):
+#     cont = 0
+#     for n in range(1, i + 1):
+#         if i % n == 0:
+#             cont += 1
+#     if cont == 2:
+#         print(f'{n} é um número inteiro')
+#     else:
+#         print(f'{n} não é um número inteiro')
+
+
+def num_primo():
+    for i in range(1, num + 1):
+        cont = 0
+        for n in range(1, i + 1):
+            if i % n == 0:
+                cont += 1
+        if cont == 2:
+            print(f'{n} é um número inteiro')
+        else:
+            print(f'{n} não é um número inteiro')
+
+
+num_primo()
