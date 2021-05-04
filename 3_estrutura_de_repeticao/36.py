@@ -15,3 +15,15 @@ Vou montar a tabuada de 5 começando em 4 e terminando em 7:
 5 X 7 = 35
 Obs: Você deve verificar se o usuário não digitou o final menor que o inicial.
 """
+
+
+def tabuada():
+    for i in range(comeco, termino + 1):
+        mult = tabuada_de * i
+        print(f'{tabuada_de} X {i} = {mult}')
+
+
+tabuada_de = int(input('Montar a tabuada de: '))
+comeco = int(input('Começar por: '))
+termino = int(input('Terminar em: '))
+tabuada()
