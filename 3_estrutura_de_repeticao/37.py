@@ -7,13 +7,29 @@ Ao encerrar o programa também deve ser informados os códigos e valores do clie
 do mais baixo, do mais gordo e do mais magro, além da média das alturas e dos pesos dos clientes
 """
 
-while True:
-    codigo = int(input('Insira seu código: '))
-    altura = float(input('Insira sua altura: '))
-    peso = float(input('Insira seu peso: '))
-    if codigo > 0:
-        break
-    else:
-        while altura > altura:
-            print('Cliente mais alto:')
-            print(f'Código: {codigo}, Altura: {altura} e Peso: {peso}')
+clientes = []
+codigo = 1
+
+while codigo:
+    codigo = int(input('Informe o código do cliente, ou Digite 0 para terminar: '))
+    if codigo:
+        altura = float(input('Informe sua altura: '))
+        peso = float(input('Informe seu peso: '))
+        clientes.append({'Código': codigo, 'Altura': altura, 'Peso': peso})
+
+mais_alto = 0
+mais_baixo = 999
+
+for i in clientes:
+    if i['Altura'] > mais_alto:
+        cliente_alto = i['Código']
+        mais_alto = i['Altura']
+    if i['Altura'] < mais_baixo:
+        cliente_baixo = i['Código']
+        mais_baixo = i['Altura']
+
+print('Cliente mais alto:', end=' ')
+print(f'Código: {cliente_alto}, Altura: {mais_alto:.2f}')
+
+print('Cliente mais baixo:', end=' ')
+print(f'Código: {cliente_baixo}, Altura: {mais_baixo:.2f}')
