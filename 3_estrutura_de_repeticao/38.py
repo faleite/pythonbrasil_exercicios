@@ -8,3 +8,20 @@ Faça um programa que determine o salário atual desse funcionário.
 Após concluir isto, altere o programa permitindo que o usuário
 digite o salário inicial do funcionário.
 """
+
+salario = float(input('Informe o salário inicial do funcionário: '))
+ano_inicio = int(input('Informe a data de inicio: '))
+ano_atual = int(input('Informe a data atual: '))
+
+aumento = 1.5
+
+
+for n in range(ano_inicio, ano_atual):
+    salario += (salario * aumento) / 100
+    aumento *= 2
+
+print(f'Salário atual = R$ {salario:.2f}')
+
+
+
+
