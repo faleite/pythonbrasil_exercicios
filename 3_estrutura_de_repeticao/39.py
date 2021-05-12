@@ -7,17 +7,24 @@ Mostre o número do aluno mais alto e o número do aluno mais baixo,
 junto com suas alturas.
 """
 
-mais_alto = 0
-mais_baixo = 0
+mais_alto = mais_baixo = 0
+lista = []
 
 for i in range(1, 4):
-    lista = []
     n_aluno = int(input('Informe o número do aluno: '))
     alt_aluno = int(input('Informe a altura do aluno em centímetros: '))
     lista.append({'Aluno': n_aluno, 'Altura': alt_aluno})
-    if alt_aluno > mais_alto:
-        mais_alto = alt_aluno
-    if alt_aluno < mais_alto:
-        mais_baixo = alt_aluno
 
-    print(lista)
+for y in lista:
+    if y['Altura'] > mais_alto:
+        a_alto = y['Aluno']
+        mais_alto = y['Altura']
+    if y['Altura'] < mais_alto:
+        a_baixo = y['Aluno']
+        mais_baixo = y['Altura']
+
+print('Aluno mais alto:')
+print(f'Aluno: {a_alto}, Altura: {mais_alto} cm')
+
+print('Aluno mais baixo:')
+print(f'Aluno: {a_baixo}, Altura: {mais_baixo} cm')
