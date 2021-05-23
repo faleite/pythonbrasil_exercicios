@@ -11,11 +11,15 @@ f. Qual a média de acidentes de trânsito nas cidades com menos de 2.000 veícu
 
 c_menor_acid = menor_acid = 0
 c_maior_acid = maior_acid = 0
+total_veic = total_cid = 0
+cont = soma_veic = 0
 
-for i in range(1, 4):
+for i in range(1, 6):
     cid = int(input('Informe o código da cidade: '))
     veic = int(input('Informe o número de veículos de passeio: '))
     acid = int(input('Informe o número de acidentes de trânsito com vítimas: '))
+    total_veic += veic
+    total_cid += 1
 
     if i == 1:
         c_menor_acid = cid
@@ -27,9 +31,14 @@ for i in range(1, 4):
         c_menor_acid = cid
         menor_acid = acid
 
+    if veic <= 2000:
+        cont += 1
+        soma_veic += acid
+
+
 print()
 print(f'O maior índice de acidentes de transito é: {maior_acid}, e pertence a cidade: {c_maior_acid} ')
 print(f'O menor índice de acidentes de transito é: {menor_acid}, e pertence a cidade: {c_menor_acid} ')
 print()
-print(f'Média de veículos nas cinco cidades juntas: ')
-print(f'Média de acidentes de trânsito nas cidades com menos de 2.000: ')
+print(f'Média de veículos nas cinco cidades juntas: {int(total_veic / total_cid)} ')
+print(f'Média de acidentes de trânsito nas cidades com menos de 2.000: {int(soma_veic / cont)} ')
