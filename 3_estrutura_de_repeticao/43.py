@@ -13,6 +13,8 @@ Calcule e mostre o valor a ser pago por item (preço * quantidade) e o total ger
 Considere que o cliente deve informar quando o pedido deve ser encerrado.
 """
 
+cod100 = cod101 = cod102 = cod103 = cod104 = cod105 = 0
+
 while True:
     codigo = int(input('Informe o código do pedido: '))
     if codigo == 0:
@@ -20,14 +22,23 @@ while True:
     qtd = int(input('Informe a quantidade: '))
 
     if codigo == 100:
-        print(f'Valor a ser pago: {qtd*1.20}')
+        cod100 = qtd*1.20
+        print(f'Valor a ser pago: R$ {cod100:.2f}')
     if codigo == 101:
-        print(f'Valor a ser pago: {qtd*1.30}')
+        cod101 = qtd*1.30
+        print(f'Valor a ser pago: R$ {cod101:.2f}')
     if codigo == 102:
-        print(f'Valor a ser pago: {qtd*1.50}')
+        cod102 = qtd*1.50
+        print(f'Valor a ser pago: R$ {cod102:.2f}')
     if codigo == 103:
-        print(f'Valor a ser pago: {qtd*1.20}')
+        cod103 = qtd*1.20
+        print(f'Valor a ser pago: R$ {cod103:.2f}')
     if codigo == 104:
-        print(f'Valor a ser pago: {qtd*1.30}')
+        cod104 = qtd*1.30
+        print(f'Valor a ser pago: R$ {cod104:.2f}')
     if codigo == 105:
-        print(f'Valor a ser pago: {qtd*1.00}')
+        cod105 = qtd*1.00
+        print(f'Valor a ser pago: R$ {cod105:.2f}')
+
+soma = cod100 + cod101 + cod102 + cod103 + cod104 + cod105
+print(f'Valor total do pedido: R$ {soma:.2f}')
