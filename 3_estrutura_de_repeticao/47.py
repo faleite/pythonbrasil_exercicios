@@ -23,3 +23,24 @@ Melhor nota: 9.9
 Pior nota: 7.5
 Média: 9,04
 """
+
+atleta = str(input('Atleta: '))
+
+notas = melhor = pior = []
+media = 0
+
+for i in range(1, 8):
+    nota = float(input('Nota: '))
+    notas.append(nota)
+    notas.sort()
+    melhor = notas[-1]
+    pior = notas[0]
+    notas5 = notas[1:6]
+    media = sum(notas5) / 5
+
+print()
+print('Resultado final:')
+print('Atleta: ' + atleta.title())
+print('Melhor nota: ' + str(melhor))
+print('Pior nota: ' + str(pior))
+print(f'Média: {media:.2f}')
